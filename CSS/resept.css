@@ -1,0 +1,264 @@
+/* Cinthel */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+    /* font-family: "Cinzel", serif; */
+
+/* Cormorant */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+    /* font-family: "Cormorant", serif; */
+
+/* DM Sansa */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+    /* font-family: "DM Sans", sans-serif; */
+
+/* Great Vibes */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    /* font-family: "Great Vibes", cursive;*/
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    color: white;
+    background-color: #1E1E1E;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* <!-- =================================================
+                    NAVBAR  SECTION
+    ================================================= --> */
+
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-family: "Cormorant", serif;
+}
+
+.lists{
+    display: flex;
+    gap: 25px;
+}
+
+li a{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav_rest h2{
+    color: #F5BE32;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #F5BE32;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+}
+
+.yellow_mid_line{
+    width: 51px;
+    height: 2px;
+    background-color: #F5BE32;
+    border-radius: 5px;
+}
+
+/* <!-- =================================================
+                    HERO  SECTION
+    ================================================= --> */
+
+.hero{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero h2, .sushi_cards h2{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    word-spacing: 7px;
+    font-family: "Great Vibes";
+}
+
+.hero h1{
+    font-family: "Cinzel", serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #F3D382;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.hero p, .sushi_cards p{
+    font-family: "DM Sans", sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 380px;
+}
+
+.hero button{
+    font-family: "Cormorant", serif;
+    margin-top: 30px;
+    background-color: #F5BE32;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 18px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.black_mid_line{
+    width: 50px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #000;
+
+}
+
+/* <!-- =================================================
+                    SUSHI  SECTION
+================================================= --> */
+
+.sushi_cards{
+    margin-top: 100px;
+    
+}
+
+.sushi_car_taxr_part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sushi_car_taxr_part h1{
+    font-family: "DM Sans", sans-serif;
+    color: #F3D382;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.food{
+    display: flex;
+    justify-content: center;
+}
+
+.cards_down_part{
+    padding: 30px 20px;
+}
+
+.cards_down_part h1{
+    font-family: "Cinzel", serif;
+    color: #F3D382;
+}
+
+.cards_down_part p{
+    text-align: start;
+    max-width: 330px;
+}
+
+.sushi_cards img{
+    width: 380px;
+    height: 300px;
+}
+
+.stars{
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.stars img{
+    width: 40px;
+    height: 40px;
+}
+
+.yellow_border{
+    width: 190px;
+}
+
+.cards_down_part h2{
+    cursor: pointer;
+    font-family: "Cormorant", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #F5BE32;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0;
+    color: #F5BE32;
+}
+
+.yellow_mid_line{
+    margin-top: 5px;
+}
+
+.grey_color_card{
+    background-color: #2E2E2E;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
